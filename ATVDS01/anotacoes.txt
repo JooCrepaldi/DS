@@ -1,0 +1,3 @@
+setters = utilizado para a alteração de informação individual de atributo
+getters = é utilizado para pegar informação do objeto(o objeto é privado)
+construtores = como vai ser "inputado" a informação
