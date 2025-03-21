@@ -1,22 +1,30 @@
 package ATVDS01;
 
-public class Produto {//aqui estão os atributos da classe produto
+public class Produto {
+    //atributos
     String nome;
     float preco;
     int codigo;
     int quantidade;
     String cor;
 
-    public Produto(){}
+    //métodos
+    public Produto(){}//padrão
 
-    public produto(String nome, float preco, int codigo, int quantidade, String cor){
-        this.nome = nome;
+    //1
+    public Produto(String nome, float preco, int codigo, int quantidade, String cor){
+        this.nome = nome; //o nome do atributo é igual ao nome do parâmetro do método
         this.preco = preco;
         this.codigo = codigo;
         this.quantidade = quantidade;
         this.cor = cor;
     }
 
+    //2
+
+    //3
+    
+    //enclapsulamento
     public String getNome() {
         return nome;
     }
@@ -56,8 +64,4 @@ public class Produto {//aqui estão os atributos da classe produto
     public void setCor(String cor) {
         this.cor = cor;
     }
-
-    //enclapsulamento
-    
-    
 }
